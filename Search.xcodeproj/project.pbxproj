@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0996E052C594ABF00421DE3 /* SearchFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0996E042C594ABF00421DE3 /* SearchFilter.swift */; };
+		D0996E072C594AE700421DE3 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0996E062C594AE700421DE3 /* Posts.swift */; };
+		D0996E0D2C594C4000421DE3 /* Authors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0996E0C2C594C4000421DE3 /* Authors.swift */; };
+		D0996E0F2C594C5100421DE3 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0996E0E2C594C5100421DE3 /* Services.swift */; };
+		D0996E122C594CEB00421DE3 /* Tours.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0996E112C594CEB00421DE3 /* Tours.swift */; };
+		D0996E142C594CF100421DE3 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0996E132C594CF100421DE3 /* Business.swift */; };
+		D0996E1B2C59554800421DE3 /* Onest-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0996E1A2C59554800421DE3 /* Onest-Regular.ttf */; };
+		D0996E262C59648200421DE3 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0996E252C59648200421DE3 /* SearchBar.swift */; };
 		D0AA7A8D2C58101D00DFD810 /* SearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA7A8C2C58101D00DFD810 /* SearchApp.swift */; };
 		D0AA7A8F2C58101D00DFD810 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AA7A8E2C58101D00DFD810 /* ContentView.swift */; };
 		D0AA7A912C58101E00DFD810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AA7A902C58101E00DFD810 /* Assets.xcassets */; };
@@ -14,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0996E042C594ABF00421DE3 /* SearchFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilter.swift; sourceTree = "<group>"; };
+		D0996E062C594AE700421DE3 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		D0996E0C2C594C4000421DE3 /* Authors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authors.swift; sourceTree = "<group>"; };
+		D0996E0E2C594C5100421DE3 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		D0996E112C594CEB00421DE3 /* Tours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tours.swift; sourceTree = "<group>"; };
+		D0996E132C594CF100421DE3 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		D0996E1A2C59554800421DE3 /* Onest-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Onest-Regular.ttf"; path = "../../../../../../Downloads/Onest/static/Onest-Regular.ttf"; sourceTree = "<group>"; };
+		D0996E1E2C59583A00421DE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		D0996E252C59648200421DE3 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		D0AA7A892C58101D00DFD810 /* Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0AA7A8C2C58101D00DFD810 /* SearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchApp.swift; sourceTree = "<group>"; };
 		D0AA7A8E2C58101D00DFD810 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +49,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0996E192C5954F600421DE3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D0996E1E2C59583A00421DE3 /* Info.plist */,
+				D0996E1A2C59554800421DE3 /* Onest-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		D0AA7A802C58101D00DFD810 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +79,14 @@
 			children = (
 				D0AA7A8C2C58101D00DFD810 /* SearchApp.swift */,
 				D0AA7A8E2C58101D00DFD810 /* ContentView.swift */,
+				D0996E062C594AE700421DE3 /* Posts.swift */,
+				D0996E0C2C594C4000421DE3 /* Authors.swift */,
+				D0996E0E2C594C5100421DE3 /* Services.swift */,
+				D0996E112C594CEB00421DE3 /* Tours.swift */,
+				D0996E132C594CF100421DE3 /* Business.swift */,
+				D0996E252C59648200421DE3 /* SearchBar.swift */,
+				D0996E042C594ABF00421DE3 /* SearchFilter.swift */,
+				D0996E192C5954F600421DE3 /* Font */,
 				D0AA7A902C58101E00DFD810 /* Assets.xcassets */,
 				D0AA7A922C58101E00DFD810 /* Preview Content */,
 			);
@@ -125,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0996E1B2C59554800421DE3 /* Onest-Regular.ttf in Resources */,
 				D0AA7A942C58101E00DFD810 /* Preview Assets.xcassets in Resources */,
 				D0AA7A912C58101E00DFD810 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +173,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0AA7A8F2C58101D00DFD810 /* ContentView.swift in Sources */,
+				D0996E142C594CF100421DE3 /* Business.swift in Sources */,
+				D0996E052C594ABF00421DE3 /* SearchFilter.swift in Sources */,
+				D0996E072C594AE700421DE3 /* Posts.swift in Sources */,
+				D0996E262C59648200421DE3 /* SearchBar.swift in Sources */,
 				D0AA7A8D2C58101D00DFD810 /* SearchApp.swift in Sources */,
+				D0996E0D2C594C4000421DE3 /* Authors.swift in Sources */,
+				D0996E122C594CEB00421DE3 /* Tours.swift in Sources */,
+				D0996E0F2C594C5100421DE3 /* Services.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +312,7 @@
 				DEVELOPMENT_TEAM = 3M43CKAB77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Search/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +342,7 @@
 				DEVELOPMENT_TEAM = 3M43CKAB77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Search/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
